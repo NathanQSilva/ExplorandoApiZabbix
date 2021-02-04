@@ -76,7 +76,7 @@ def exec():
             contAck += 1
 
     os.system('clear')
-    print(colored("-- Success --",'red',attrs=['bold']))
+    print(colored("-- Success --",'green',attrs=['bold']))
     print(colored("****",'blue', attrs=['bold'])," De "+colored(str(contEvent), 'yellow', attrs=['bold'])+" alarmes, foram resolvidos "+colored(str(contResolv), 'yellow', attrs=['bold'])+" sendo, "+colored(str(contAck), 'yellow', attrs=['bold'])+" com alguma intervenção tecnica ",colored("****",'blue', attrs=['bold']))
     print()
     print()
